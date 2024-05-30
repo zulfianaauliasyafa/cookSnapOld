@@ -1,0 +1,86 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      #box {
+        border: 5px solid transparent;
+        padding: 30px;
+        width: 450px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      h1 {
+        z-index: 1;
+        position: relative;
+        top: 10;
+        height: 145px;
+        color: rgb(255, 230, 0);
+        margin-right: 15px;
+        font-size: 90px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+      body {
+        font-family:sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-image: url(https://c1.wallpaperflare.com/path/461/820/840/music-low-electric-bass-strings-475702149f76526165d83089b5aa5c3b.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: white;
+      }
+      input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+      }
+      input[type="text"]:focus {
+        border-color: #999;
+      }
+      input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+      }
+      input[type="password"]:focus {
+        border-color: #999;
+      }
+      a {
+        color: rgb(255, 223, 95);
+        text-decoration: none;
+      }
+      .login-link {
+        text-align: center;
+        margin-top: 20px;
+      }
+      .loginbutton {
+        font-family: sans-serif;
+        background-color: rgb(255, 223, 95);
+        color: inherit;
+        border: 2px solid rgb(255, 223, 95);
+        padding: 7px 17px; 
+        font-size: 18px; 
+        margin-top: 10px;
+        cursor: pointer; 
+        border-radius: 5px; 
+      }
+      #boxregis {
+        margin-top: 20px;
+        border: 5px;
+        font-family: sans-serif;
+        color: rgb(255, 255, 255);
+      }
+    

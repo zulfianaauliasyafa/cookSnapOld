@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(247, 247, 247);
+    font-family: "Montserrat", sans-serif;
+}
+.containerform{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    align-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(247, 247, 247);
+    padding: 30px;
+    width: 450px;
+    border-radius: 20px;
+}
+
+    h1 {
+        font-size: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .form button {
+        align-self: flex-end;
+    }
+    
+    .flex-column > label {
+        color: #151717;
+        font-weight: 600;
+        padding-top: 20px;
+    }
+
+    .col{
+        padding-top: 10px;
+    }
+
+    .inputForm {
+        background-color: rgb(247, 247, 247);
+        border: 1.5px solid #ecedec;
+        border-radius: 10px;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        transition: 0.2s ease-in-out;
+    }
+
+    /* .input {
+        margin-left: 10px;
+        border-radius: 10px;
+        border: none;
+        width: 85%;
+        height: 100%;
+    } */
+
+    .input:focus {
+        outline: none;
+      }
+      
+    .inputForm:focus-within {
+        border: 1.5px solid #FD8F13;
+    }
+      
+    .flex-row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        justify-content: space-between;
+    }
+
+    .span {
+        font-size: 14px;
+        margin-left: 5px;
+        text-decoration: underline;
+        font-weight: 500;
+        cursor: pointer;
+      }
+    
+    .p {
+        text-align: center;
+        color: black;
+        font-size: 14px;
+        margin: 5px 0;
+    }
+
+    .forgot {
+        font-size: 14px;
+        margin-left: 5px;
+        text-decoration: underline;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    
+
+    .button-submit {
+        margin: 20px 10px 10px 10px;
+        background-color: #FD8F13;
+        border: none;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+        border-radius: 10px;
+        height: 50px;
+        width: 95%;
+        cursor: pointer;
+      }
+    
+    .button-submit-kecil:hover {
+        background-color: #ffb055;
+    }
+      
+    .button-submit:hover {
+        background-color: #ffb055;
+    }
+
+    .google {
+        width: 100%;
+        border: #202020 !important;
+        border-radius: 10px;
+    }
